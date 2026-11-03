@@ -1,0 +1,16 @@
+# Environment used for the paper. Needed to use data/vocab_zinc250k_rdkit2020.txt
+# or checkpoints trained with it (RDKit's canonical SMILES differ in newer versions).
+name: acmodnet-legacy
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pytorch=1.11
+  - cudatoolkit=10.2
+  - rdkit=2020.09
+  - networkx
+  - numpy
+  - pandas
+  - tqdm
+  - pytest

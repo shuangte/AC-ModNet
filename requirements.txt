@@ -1,0 +1,7 @@
+torch>=1.11
+rdkit>=2022.9
+networkx>=2.5
+numpy
+pandas
+tqdm
+pytest
